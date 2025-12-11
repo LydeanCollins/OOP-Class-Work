@@ -18,7 +18,7 @@ namespace Week6_Common
         public int StudentFK { get; set; }
         public int UnitFK { get; set; }
         public System.DateTime DatePlaced { get; set; }
-        public int StaatusFK { get; set; }
+        public int StatusFK { get; set; }
     
         public virtual Status Status { get; set; }
         public virtual Student Student { get; set; }

@@ -8,7 +8,7 @@ namespace Week5_ClassRelationships.Association
 {
     public class User
     {
-        public int Id{ get; set; }
+        public int Id { get; set; }
         public string Name { get; set; }
     }
 }

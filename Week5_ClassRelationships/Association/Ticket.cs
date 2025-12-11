@@ -10,24 +10,25 @@ namespace Week5_ClassRelationships.Association
     {
         public Event Event { get; set; }
         public Seat Seat { get; set; }
+
         public User User { get; set; }
         public Ticket(Event e, Seat s, User u)
         {
-            Event = e;
             Seat = s;
+            Event = e;
             User = u;
         }
-        public List<Seat> Seats { get; set; }
 
-        //1. Relationship between Ticket and Payement is the weakest one: Association
-        //2. Association: Class A is being used by Class B BUT not store it in any of the attributes inside 
-        //3. (Strongest -> Weakest) Composition -> Aggregation -> Association
-        //4.
-        public void sellTicket(Payement payement)
+        //1. Relationship between Ticket and Payment is the weakest one : Association
+        //2. Association: Class a is being used by Class b BUT not store it in any of the attributes inside
+        //3. (Strongest) Composition -> Aggregation -> Association (Weakest)
+        public void SellTicket(Payment payment)
         {
-            Console.WriteLine($"you need yo pay this Amount: {payement.Buy(Seat)}");
-            //Once payement is successful mark the seat as booked
-
+            Console.WriteLine("You need to pay this amount " + payment.Buy(Seat));
+            //once payment is successfully
+            //...we mark the seat as taken
         }
+
+
     }
 }

@@ -8,8 +8,10 @@ namespace Week5_ClassRelationships.Association
 {
     public class Seat
     {
-        public string number { get; set; }
-        public double price { get; set; }
+        public string Number { get; set; } //e.g. A1, A2
+                                         
+        public double Price { get; set; }
+
 
     }
 }

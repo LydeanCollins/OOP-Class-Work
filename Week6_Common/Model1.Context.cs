@@ -13,10 +13,10 @@ namespace Week6_Common
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class AttendanceDBContext : DbContext
+    public partial class AttendanceDbContext : DbContext
     {
-        public AttendanceDBContext()
-            : base("name=AttendanceDBContext")
+        public AttendanceDbContext()
+            : base("name=AttendanceDbContext")
         {
         }
     

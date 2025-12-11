@@ -4,16 +4,16 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="20c1f46f72a9490dbb98b1db3abba7ba" Name="Diagram1">
-        <EntityTypeShape EntityType="swd61a_oop_20252026Model.Attendance" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
-        <EntityTypeShape EntityType="swd61a_oop_20252026Model.Group" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="swd61a_oop_20252026Model.Status" Width="1.5" PointX="3" PointY="4.625" IsExpanded="true" />
-        <EntityTypeShape EntityType="swd61a_oop_20252026Model.Student" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
-        <EntityTypeShape EntityType="swd61a_oop_20252026Model.Unit" Width="1.5" PointX="3" PointY="7" IsExpanded="true" />
-        <AssociationConnector Association="swd61a_oop_20252026Model.FK_Attendance_Statuses" ManuallyRouted="false" />
-        <AssociationConnector Association="swd61a_oop_20252026Model.FK_Attendance_Students" ManuallyRouted="false" />
-        <AssociationConnector Association="swd61a_oop_20252026Model.FK_Attendance_Units" ManuallyRouted="false" />
-        <AssociationConnector Association="swd61a_oop_20252026Model.FK_Students_Groups" ManuallyRouted="false" />
+      <Diagram DiagramId="11ace7f081be49b3901b88d4c6328c41" Name="Diagram1">
+        <EntityTypeShape EntityType="swd61a_oop_20252026v2Model.Attendance" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="swd61a_oop_20252026v2Model.Group" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="swd61a_oop_20252026v2Model.Status" Width="1.5" PointX="3" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="swd61a_oop_20252026v2Model.Student" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="swd61a_oop_20252026v2Model.Unit" Width="1.5" PointX="3" PointY="7" IsExpanded="true" />
+        <AssociationConnector Association="swd61a_oop_20252026v2Model.FK_Attendances_Statuses" ManuallyRouted="false" />
+        <AssociationConnector Association="swd61a_oop_20252026v2Model.FK_Attendances_Students" ManuallyRouted="false" />
+        <AssociationConnector Association="swd61a_oop_20252026v2Model.FK_Attendances_Units" ManuallyRouted="false" />
+        <AssociationConnector Association="swd61a_oop_20252026v2Model.FK_Students_Groups1" ManuallyRouted="false" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

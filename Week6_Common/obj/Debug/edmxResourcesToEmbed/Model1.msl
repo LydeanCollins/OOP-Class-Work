@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-  <EntityContainerMapping StorageEntityContainer="swd61a_oop_20252026ModelStoreContainer" CdmEntityContainer="AttendanceDbContext">
+  <EntityContainerMapping StorageEntityContainer="swd61a_oop_20252026v2ModelStoreContainer" CdmEntityContainer="AttendanceDbContext">
     <EntitySetMapping Name="Attendances">
-      <EntityTypeMapping TypeName="swd61a_oop_20252026Model.Attendance">
+      <EntityTypeMapping TypeName="swd61a_oop_20252026v2Model.Attendance">
         <MappingFragment StoreEntitySet="Attendances">
           <ScalarProperty Name="Id" ColumnName="Id" />
           <ScalarProperty Name="StudentFK" ColumnName="StudentFK" />
@@ -13,7 +13,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Groups">
-      <EntityTypeMapping TypeName="swd61a_oop_20252026Model.Group">
+      <EntityTypeMapping TypeName="swd61a_oop_20252026v2Model.Group">
         <MappingFragment StoreEntitySet="Groups">
           <ScalarProperty Name="Id" ColumnName="Id" />
           <ScalarProperty Name="Name" ColumnName="Name" />
@@ -21,7 +21,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Statuses">
-      <EntityTypeMapping TypeName="swd61a_oop_20252026Model.Status">
+      <EntityTypeMapping TypeName="swd61a_oop_20252026v2Model.Status">
         <MappingFragment StoreEntitySet="Statuses">
           <ScalarProperty Name="Id" ColumnName="Id" />
           <ScalarProperty Name="Name" ColumnName="Name" />
@@ -29,7 +29,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Students">
-      <EntityTypeMapping TypeName="swd61a_oop_20252026Model.Student">
+      <EntityTypeMapping TypeName="swd61a_oop_20252026v2Model.Student">
         <MappingFragment StoreEntitySet="Students">
           <ScalarProperty Name="Id" ColumnName="Id" />
           <ScalarProperty Name="Name" ColumnName="Name" />
@@ -42,7 +42,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Units">
-      <EntityTypeMapping TypeName="swd61a_oop_20252026Model.Unit">
+      <EntityTypeMapping TypeName="swd61a_oop_20252026v2Model.Unit">
         <MappingFragment StoreEntitySet="Units">
           <ScalarProperty Name="Id" ColumnName="Id" />
           <ScalarProperty Name="Code" ColumnName="Code" />

@@ -81,7 +81,6 @@
     <Compile Include="Student.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
-    <Compile Include="StudentsRepository.cs" />
     <Compile Include="Unit.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>

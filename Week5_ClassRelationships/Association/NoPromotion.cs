@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Week5_ClassRelationships.Association
 {
-    public class NoPromotion : Payement
+    public class NoPromotion : Payment
     {
         public override double Buy(Seat s)
         {
-           return s.price * (1 + Tax);
+            return s.Price * (1 + Tax);
         }
     }
 }

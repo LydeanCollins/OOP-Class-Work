@@ -51,12 +51,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SavingsAccount.cs" />
     <Compile Include="TermAccount.cs" />
-    <Compile Include="W6Q3\Character.cs" />
-    <Compile Include="W6Q3\IAttack.cs" />
-    <Compile Include="W6Q3\IHeal.cs" />
-    <Compile Include="W6Q3\Mage.cs" />
-    <Compile Include="W6Q3\Priest.cs" />
-    <Compile Include="W6Q3\Warrior.cs" />
+    <Compile Include="Worksheet6Q3\IAttack.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
